@@ -1,0 +1,367 @@
+.navbar {
+   background-color: rgba(0, 0, 0, 0.315) ;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar a,a {
+    text-decoration: none;
+    color:#fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+font-size: 18px;
+padding: 10px 15px;
+font-weight: bold;
+}
+#navbar ul,li a:hover{
+    color:rgba(246, 40, 17, 0.943);
+     background-color: rgba(0, 0, 0, 0.315);
+}
+a :hover{
+    color:rgba(246, 40, 17, 0.943);
+    background-color: rgba(0, 0, 0, 0.315);   
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.315);
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown a:hover{
+    color:rgba(246, 40, 17, 0.943);
+    background-color: rgba(0, 0, 0, 0.315);
+}
+body{
+    background-image: url("images/OIP.jpeg");
+    filter: saturate(2.5); 
+    background-size: cover;
+    background-attachment: fixed;
+}
+#main-header{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    color: #fff;
+    text-align: center;
+}
+.block1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    float: right;
+    width: 50%;
+    padding: 10px;
+    font-size: large;
+    font-weight: bold;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.block2 {
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 20px;
+    color: white; 
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    float: right;
+    width: 100%;
+}
+
+.block3 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: bold;
+    color: #fff;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.block4 {
+    float:right ;
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: #fff;
+    text-align: center; 
+}
+
+.block4 img {
+    max-width: 100%; 
+    height:auto; 
+}
+.clr{
+    clear: both;
+}
+.block5 {
+    float:right;
+    width: 50%;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: bold;
+    color: #fff;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.block6 {
+    float:left ;
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: #fff;
+    text-align: center; 
+}
+
+.block6 img {
+    max-width: 100%;
+    width: 500px;
+    height: 400px;
+}
+#main-footer{
+    background: #0000007d ;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-weight: bold;
+    padding: 20px;
+    margin-top: 40px;
+   
+}
+#sub-heading{
+    font-family: 'Courier New', Courier, monospace;
+    font-size:medium;
+    color: #fff;
+    text-align: center;
+}
+.block7 {
+    float: left;
+    width: 55%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center; 
+}
+
+.block7 img {
+    max-width: 100%;
+    height: 400px;
+}
+
+.block8 {
+    float: left; 
+    width: 45%;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: bold;
+    color: #fff;
+    box-sizing: border-box;
+    text-align: left;
+}
+.recipe-info {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse:collapse;
+}
+
+th, td {
+    padding: 8px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+th {
+    background-color: #333333;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+    color: black;
+}
+
+.block9{
+text-align:center;
+font-size: large;
+font-family: 'Courier New', Courier, monospace;
+color: #fff;
+}
+
+.block9 ul,li{
+    text-align:left;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;  
+}
+
+.block10 {
+    float: left;
+    width: 55%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center; 
+}
+
+.block10 img {
+    max-width: 100%;
+    height: 800px;
+}
+.block11{
+    float: left;
+    width: 55%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center; 
+}
+
+.block11 img {
+    max-width: 100%;
+    height: 600px;
+}
+.block12{
+    float: left;
+    width: 55%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center; 
+}
+
+.block12 img {
+    max-width: 100%;
+    height: 1050px;
+}
+.block13 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: bold;
+    color: #fff;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.block14 {
+    float:right ;
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: #fff;
+    text-align: center; 
+}
+
+.block14 img {
+    max-width: 100%;
+    width: 600px; 
+    height:500px; 
+}
+.block15 {
+    float:right;
+    width: 50%;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: bold;
+    color: #fff;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.block16 {
+    float:left ;
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: #fff;
+    text-align: center; 
+}
+
+.block16 img {
+    max-width: 100%;
+    width: 500px;
+    height: 500px;
+}
+.block17{
+    float: left;
+    width: 55%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center; 
+}
+
+.block17 img {
+    max-width: 100%;
+    height: 650px;
+}
+/* CSS for larger screens */
+@media (min-width: 601px) {
+    .block3,.block6,.block7, .block8,.block10, .block11, .block12, .block13,.block16, .block17 {
+      float: left;
+      width: 50%;
+    }
+    
+    .block1,.block4,.block5,.block14,.block15{
+    float: right;
+    width: 50%;
+    }
+
+    .block9{
+        text-align: center;
+    }
+    
+  
+    #main-footer {
+      position:relative;
+      bottom: 0;
+      width: 100%;
+    }
+  }
+  
+  /* CSS for small screens */
+  @media (max-width: 600px) {
+    .block1,.block3,.block4,.block5,.block6,.block7, .block8, .block9, .block10, .block11, .block12, .block13, .block14, .block15, .block16, .block17 {
+      width: auto;
+      margin: 10px;
+    }
+  
+    #main-footer {
+      position: relative;
+      width: auto;
+    }
+  }
+  

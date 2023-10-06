@@ -1,0 +1,108 @@
+body{
+    background-image: url("Images/R.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+#main-header{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    color: #fff;
+    text-align: center;
+}
+
+.mypic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#navbar{
+    background-color: rgba(0, 0, 0, 0.315) ;
+    color: #fff;
+    text-align: center;
+}
+
+#navbar ul{
+    padding:0;
+    list-style: none;
+}
+
+#navbar li{
+    display: inline-block;
+}
+
+#navbar a{
+color: #fff;
+text-decoration: none;
+font-size: 18px;
+padding: 10px 15px;
+font-weight: bold;
+}
+
+#navbar a:hover{
+    color:#fff;
+    background-color: rgba(0, 0, 0, 0.315);
+}
+
+.block{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+     text-align: center;
+     color: #fff;
+}
+
+
+.block1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+     color: #fff;
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.block1:hover {
+    animation: scaleInOut 1s ease-in-out infinite;
+  }
+  
+  @keyframes scaleInOut {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+  }
+
+a{
+    color: #fff;
+}
+
+a:hover{
+    color: #000;
+}
+.block2{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#main-footer{
+    background: #000 ;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    margin-top: 40px;
+   
+}

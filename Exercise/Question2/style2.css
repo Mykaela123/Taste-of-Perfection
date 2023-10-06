@@ -1,0 +1,111 @@
+@keyframes gradientAnimation {
+    0%   { background-position: 0% 50%; }
+    25%  { background-position: 100% 50%; }
+    50%  { background-position: 0% 50%; }
+    75%  { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.background-image {
+    flex: 1;
+    background-image: url("Images/38-388110_background-wallpaper-colorful-website-background-design.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+.gradient-background {
+    flex: 1;
+    position: relative;
+    background: linear-gradient(to right, lightskyblue, mediumslateblue, mediumvioletred, lightcoral, salmon);
+    background-size: 200% 100%;
+    animation: gradientAnimation 3s linear infinite;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#main-header{
+    background-color:indianred;
+    color: #fff;
+    padding:20px 20px;
+    border: #fff;
+}
+
+#main-footer{
+    background:indianred ;
+    color: #000;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+#navbar{
+    background-color: lightcoral ;
+    color: #fff;
+}
+
+#navbar ul{
+    padding:0;
+    list-style: none;
+}
+
+#navbar li{
+    display: inline-block;
+    background-color:lightcoral ;
+}
+
+#navbar a{
+color: #fff;
+background-color: lightcoral;
+text-decoration: none;
+font-size: 18px;
+padding: 15px 20px;
+font-weight: bold;
+}
+
+#navbar a:hover{
+    color:#fff;
+    background-color: indianred;
+}
+
+.block1{
+    float:left;
+    width: 65%;
+    padding: 10px;
+    font-size: large;
+    font-weight: bold;
+    font: #fff;
+    box-sizing: border-box;
+}
+
+.block2{
+    float: right;
+    width: 35%;
+    border: 1px solid #fff;
+    background-color: mediumslateblue;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.clr{
+    clear: both;
+}
+
+#fade-out{
+    opacity: 1;
+  transition: opacity 1s ease-out;
+}
+
+#fade-out:hover{
+    opacity: 0;
+  }

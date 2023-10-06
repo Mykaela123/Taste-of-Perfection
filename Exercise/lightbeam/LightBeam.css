@@ -1,0 +1,137 @@
+body {
+    background-image: url("Images/OIP.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0; /* Reset default margin */
+    padding: 0; /* Reset default padding */
+}
+
+#main-header {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    color: #fff;
+    text-align: center;
+    display: flex; /* Add flex display */
+    align-items: center; /* Vertically align items */
+    justify-content: center; /* Horizontally align items */
+    margin-top: 20px; /* Adjust margin */
+}
+
+.logo {
+    display: block;
+    width: 50px; /* Set a specific width for the logo */
+    margin-right: 10px; /* Add some spacing */
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#navbar {
+    background-color: rgba(0, 0, 0, 0.315);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0; /* Add padding */
+}
+
+#navbar ul {
+    padding: 0;
+    list-style: none;
+}
+
+#navbar li {
+    display: inline-block;
+}
+
+#navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+
+#navbar a:hover {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.315);
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.Block1 {
+    width: 65%;
+    padding: 10px;
+    font-size: x-large; /* Increase font size for About Us text */
+    font-weight: bold;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+#main-footer {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    margin-top: 80px; /* Adjust margin-top to lower the footer */
+}
+
+
+/* Style for the main dropdown */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    color: #fff;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    top: 100%; /* Position below the parent */
+    left: 0;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Style for the sub-dropdown */
+.sub-dropdown {
+    position: relative;
+    display: inline-block;
+    background-color: #00000085;
+    color: #fff;
+}
+
+.sub-dropdown-content {
+    display: none;
+    position: absolute;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.534);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    top: 0;
+    left: 100%;
+    transform: translateX(-100%);
+}
+
+.sub-dropdown:hover .sub-dropdown-content {
+    display: block;
+}
+
+
+
+
+
+
